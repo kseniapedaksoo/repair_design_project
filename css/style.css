@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', Arial;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logo {
+    color: #E3B873;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: #131313;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-number {
+    text-decoration-line: underline;
+}
+
+.imageback {
+    background-image: url(/images/imageback.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+}
+
+.imageback-overlay {
+    content: '';
+    position: absolute;
+    top: 83px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    height: 707px;
+}
+
+.imageback-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-style: normal;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 676.11px;
+}
+
+.rostov {
+    color: #E3B873;
+}
