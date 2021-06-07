@@ -1,3 +1,13 @@
+@font-face {
+    src: url('/fonts/NunitoSans-Regular.ttf');
+    font-family: 'Nunito Sans';
+}
+
+@font-face {
+    src: url('/fonts/YesevaOne-Regular.ttf');
+    font-family: 'Yeseva One';
+}
+
 body {
     margin: 0;
     font-family: 'Nunito Sans', Arial;
@@ -26,6 +36,8 @@ body * {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    height: 37px;
+    width: 161px;
 }
 
 .logo {
@@ -65,6 +77,14 @@ body * {
 .header-navigation__link {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.header-navigation__link:hover {
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    color: #E3B873;
 }
 
 .link-number {
@@ -108,4 +128,39 @@ body * {
 
 .rostov {
     color: #E3B873;
+}
+
+.subtitle {
+    /* margin: 0; */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 504px;
+}
+
+.cost {
+    padding: 19px 42px 20.65px 41px;
+    width: 207px;
+    height: 51px;
+}
+
+.application {
+    padding: 19px 23px 20.57px 22px;
+    background: none;
+    box-shadow: none;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-align: center;
+    width: 207px;
+    height: 51px;
+}
+
+.button__space {
+    width: 434px;
+    display: flex;
+    justify-content: space-between;
 }
