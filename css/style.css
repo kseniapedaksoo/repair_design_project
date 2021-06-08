@@ -1,10 +1,10 @@
 @font-face {
-    src: url('/fonts/NunitoSans-Regular.ttf');
+    src: url('fonts/NunitoSans-Regular.ttf');
     font-family: 'Nunito Sans';
 }
 
 @font-face {
-    src: url('/fonts/YesevaOne-Regular.ttf');
+    src: url('fonts/YesevaOne-Regular.ttf');
     font-family: 'Yeseva One';
 }
 
@@ -92,7 +92,7 @@ body * {
 }
 
 .imageback {
-    background-image: url(/images/imageback.jpg);
+    background-image: url(images/imageback.jpg);
     background-size: cover;
     height: 707px;
     padding-top: 194px;
