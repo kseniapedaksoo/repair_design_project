@@ -92,10 +92,14 @@
                 <h3 class="control">online control</h3>
                 <div class="container-control__vector">
                 </div>
-                <div>
-                    <div class="image2-overlay"></div>
-                    <div class="image2"></div>
-                    <!-- <img src="../repair_design_project/images/image2.jpg" alt="image2"> -->
+                <div class="onlinecontrol">
+                    <!-- <div class="image2-overlay"></div> -->
+                    <video controls class="onlinecontrol__item"   poster="../repair_design_project/images/onlinecontrol.jpg">
+                        <source src="../repair_design_project/video/onlinecontrol.webm" type="video/webm">
+                        <source src="../repair_design_project/video/onlinecontrol.mp4" type="video/mp4">
+                    </video>
+                    <div class="onlinecontrol-wrapper"></div>
+                    <!-- <div class="image2"></div> -->
                 </div>
                 <div class="hr"></div>
                 <p class="section-third__text">
@@ -105,23 +109,29 @@
                     Leave a request below and you will receive a link to the broadcast. 
                 </p>
                 <form action="url" class="section-third__form">
-                    <div class="section-third-form__first">
-                        <div class="section-third-form__one">
-                            <label for="Name" class="form-one__label">Name</label>
-                            <input type="text" class="form-one__checkbox" placeholder="What is your name:">
-                        </div>
-                        <div class="section-third-form__one">
-                            <label for="Phone" class="form-one__label">Phone</label>
-                            <input type="tel" class="form-one__checkbox" placeholder="Your phone number:">
-                        </div>
-                        <button class="button section-third__button">submit</button>
+                    <div class="section-third-form__container">
+                            <div class="section-third-form__one">
+                                <label for="Name" class="form-one__label">Name</label>
+                                <input type="text" class="form-one__checkbox" placeholder="What is your name:">
+                            </div>
+                            <div class="section-third-form__one">
+                                <label for="Phone" class="form-one__label">Phone</label>
+                                <input type="tel" class="form-one__checkbox" placeholder="Your phone number:">
+                            </div>
+                            <div class="section-third-form__one">
+                                <button class="button section-third__button">submit</button>
+                            </div>
                     </div>
-                    <div class="first-checkbox">
+                    <!-- <div class="first-checkbox">
                         <label class="label">
                           <input type="checkbox" class="checkbox" >
                           <span class="fake"></span>
                           <span class="checkbox-text">I agree to the processing of personal data.</span>
                         </label>
+                    </div> -->
+                    <div class="first-checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-text">I agree to the processing of personal data</label>
                     </div>
                 </form>
             </div>
@@ -129,51 +139,57 @@
         <section class="section-fourth">
             <div class="container section-fourth__container">
                 <h3 class="repair">types of repair</h3>
-                <img src="../repair_design_project/icons/Group 2.9.svg" alt="">
+                <div class="repair-vector"></div>
                 <div class="m2">
                     <div class="m2__one">
-                        <div class="image3"></div>
-                        <div class="redecorating"><p class="redecorating-title">Redecorating</p>
-                        <ul class="redecorating-list">
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
-                        <div class="div__m2 "><p class="ff">from 900 rub / m2 </p></div>
-                    </div>
+                        <div class="redecorating">
+                            <h3 class="redecorating-title">Redecorating</h3>
+                            <ul class="redecorating-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="div__m2 ">
+                            <p class="price price-one">from 900 rub / m2 </p>
+                        </div>
                     </div>
                     <div class="m2__two">
-                        <div class="image4"></div>
-                        <div class="redecorating"><p class="redecorating-title">Overhaul</p>
-                        <ul class="redecorating-list">
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
-                        <div class="div__m2"><p class="ff">from 1800 rub / m2</p></div>
+                        <div class="redecorating">
+                            <h3 class="redecorating-title">Overhaul</h3>
+                            <ul class="redecorating-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="div__m2 ">
+                            <p class="price price-two">from 1800 rub / m2</p>
                         </div>
                     </div>
                     <div class="m2__three">
-                        <div class="image5"></div>
-                        <div class="redecorating"><p class="redecorating-title">Designer Repair</p>
-                        <ul class="redecorating-list">
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
-                        <div class="div__m2"><p class="ff">from 4000 rub / m2</p></div>
+                        <div class="redecorating">
+                            <h3 class="redecorating-title">Designer Repair</h3>
+                            <ul class="redecorating-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="div__m2 ">
+                            <p class="price price-three">from 4000 rub / m2</p>
                         </div>
                     </div>
                 </div>
