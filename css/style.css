@@ -351,36 +351,8 @@ body * {
 }
 .onlinecontrol-wrapper {
     background: url(../icons/videoplay.svg) no-repeat center ;
-    /* filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
-    height: 85px; ;
-    width: 85px;
-    margin: 0px 0px 62.5px 0px;
-    position: absolute;
-    right: 0;
-    top: 0; */
     z-index: 2;
 }
-
-/* .onlinecontrol-wrapper::before{
-    height: 434px;
-    width: 817px;
-    border-radius: 0px;
-    content: '';
-    position: absolute;
-    background:rgba(0, 0, 0, 0.15);
-    z-index: 2;
-} */
-
-/* .image2-overlay {
-    height: 434px;
-    width: 817px;
-    left: 309px;
-    top: 847.9998779296875px;
-    border-radius: 0px;
-    content: '';
-    position: absolute;
-    background:rgba(0, 0, 0, 0.15); 
-} */
 
 .hr  {
     background-image: url(../icons/hr.jpg);
@@ -418,20 +390,24 @@ body * {
 
 }
 
-.section-third-form__one {
+.forms {
     display: flex;
     flex-direction: column ;
 }
 
-.form-one__label {
+.label {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 21px;
     text-align: start;
-    color: rgba(54, 54, 54, 0.5);
+    
     padding: 1px 2px;
+}
+
+.form-one {
+    color: rgba(54, 54, 54, 0.5);
 }
 
 .form-one__checkbox {
@@ -454,14 +430,14 @@ input[type="checkbox"]:checked
     color: #363636;
 }
 
-.section-third__button {
+.button-two {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     width: 200px;
     height: 51px;
-    /* line-height: 27px; */
+    line-height: 27px;
     
 }
 
@@ -475,9 +451,12 @@ input[type="checkbox"]:checked
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
-    color: #181818;
     cursor: pointer;
 } 
+
+.checkbox-one {
+    color: #181818;
+}
 
 input[type="checkbox"] {
     display: none;
@@ -530,7 +509,7 @@ label.checkbox-text::after {
 }
 
 
-.m2 {
+.section-fourth-container__one {
     display: flex;
     justify-content: space-between;
     height: 608px;
@@ -651,4 +630,197 @@ label.checkbox-text::after {
     text-align: center;
     text-transform: uppercase;
     color: #181818;
+}
+
+.section-fourth-container__two {
+    height: 725.44px;
+    width: 1643px;
+    margin-left: -303px;
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-fourth-container-two__first {
+    background: url(../images/backimage4.svg) no-repeat;
+    width: 1006px;
+    height: 645px;
+    /* margin-top: 124px; */
+    /* margin-left: -301px; */
+    margin-bottom: 80.44px;
+}
+
+.backgraund-inside {
+    height: 473.62px;
+    width: 378.81px;
+    margin: 125.14px 75.19px 54.24px 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-fourth-container-two__second {
+    height: 619.44px;
+    width: 506px;
+    margin-top: 106px;
+
+}
+
+.blackform {
+    width: 506px;
+    height: 509px;
+    background-color: black;
+    position: relative;
+}
+
+.blackform-title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 297px;
+    height: 47px;
+    margin: 28px 105px 39px 104px;
+    position: absolute;
+}
+
+.checkbox-two {
+    color: #FFFFFF;
+}
+
+.form-two {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.form-two__checkbox {
+    width: 408px;
+    height: 32px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 1px 2px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.form-two__checkbox:placeholder-shown{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* color: #FFFFFF;
+    background-color: black; */
+}
+
+.blackform-forms {
+    margin: 114px 49px 151px 49px;
+    position: absolute;
+}
+
+.forms-two {
+    margin-top: 48px;
+}
+
+.button-three {
+    width: 213px;
+    border-radius: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 431px;
+    left: 244px;
+}
+
+.second-checkbox {
+    margin: 16px 0px 117px 29px;
+    position: absolute;
+}
+
+.step{
+    display: flex;
+    justify-content: start;
+}
+
+.step__circle {
+    width: 58px;
+    height: 58px;
+    /* border-radius: 30px;
+    box-shadow: 0 0 0 8px black;
+    background-color: #E3B873; */
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgb(227 184 115 / 15%);
+    border-radius: 30px;
+}
+
+.step__numb {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    /* margin-top: 8px;
+    margin-left: 4.15px;
+    line-height: 25px; */
+    margin: 10.48px 4.61px 11.28px 4.15px;
+    width: 33px;
+    height: 20px;
+}
+
+.step__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    width: 320px;
+    height: 39px;
+    margin: 8px 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pig {
+    width: 441px;
+    height: 72px;
+    display: flex;
+    margin-top: 38.44px;
+    margin-left: 33.44px;
+}
+
+.pig-circle {
+    width: 72px;
+    height: 72px;
+    background: #E3B873;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    position: relative;
+}
+
+.pig-svg {
+    background: url(../icons/pig.svg) no-repeat center;
+    width: 40px;
+    height: 33.04px;
+    position: absolute;
+    top: 19.48px;
+    left: 16px;
+}
+
+.pig-text {
+    width: 344px;
+    height: 47px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    margin: 12.5px 0px 0px 25px;
 }
