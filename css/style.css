@@ -183,8 +183,6 @@ body * {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    /* width: 623px;
-    height: 24px; */
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: normal;
@@ -192,6 +190,7 @@ body * {
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 45.36px;
 }
 
 .sub-navigation__item {
@@ -208,7 +207,10 @@ body * {
 
 .sub-navigation__link:hover {
     color: #E3B873;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
+    padding-bottom: 10px;
+    border-bottom: 1px #E3B873 solid;
+    cursor: pointer;
 
 }
 
@@ -638,7 +640,6 @@ label.checkbox-text::after {
     margin-left: -303px;
     margin-top: 124px;
     display: flex;
-    justify-content: space-between;
 }
 
 .section-fourth-container-two__first {
@@ -653,7 +654,7 @@ label.checkbox-text::after {
 .backgraund-inside {
     height: 473.62px;
     width: 378.81px;
-    margin: 125.14px 75.19px 54.24px 552px;
+    margin: 125.14px 75.19px 54.24px 542px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -663,7 +664,7 @@ label.checkbox-text::after {
     height: 619.44px;
     width: 506px;
     margin-top: 106px;
-
+    margin-left: 46px;
 }
 
 .blackform {
@@ -823,4 +824,135 @@ label.checkbox-text::after {
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     margin: 12.5px 0px 0px 25px;
+}
+
+.section-fifth {
+    /* width: 1439px; */
+    /* height: 866px; */
+    background-image: url(../images/backimage5.jpg);
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+
+.section-fifth__container {
+    display: flex;
+    position: relative;
+}
+
+.sectio-fifth__overlay {
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    /* content: '';
+    position: absolute; */
+    height: 866px;
+    /* width: 1439px; */
+}
+
+.inner {
+    position: relative;
+    z-index: 2;
+}
+
+.inner-first {
+    height: 629px;
+    width: 411px;
+    position: absolute;
+    z-index: 2;
+    margin: 137.47px 77px 97.53px 0px;
+}
+
+.inner-title {
+    letter-spacing: normal;
+    width: 411px;
+    height: 66px;
+}
+
+.inner-ul {
+    width: 299px;
+    height: 516px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 47px;
+}
+
+.inner-li__item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.inner-li__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.inner-li__link:hover{
+    color: #E3B873;
+    line-height: 38px;
+    padding-bottom: 7px;
+    border-bottom: 1px #E3B873 solid;
+    cursor: pointer;
+}
+
+.inner-second {
+    width: 353.81px;
+    height: 945.86px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -40.5px;
+}
+
+.inner-second__foto1 {
+    background: url(../images/photo1.jpg) no-repeat;
+    width: 353.81px;
+    height: 556.86px;
+}
+
+.inner-second__foto2 {
+    background: url(../images/photo2.jpg) no-repeat;
+    height: 349.47px;
+    width: 353.81px;
+}
+
+.inner-third {
+    width: 354px;
+    height: 937px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin-top: -112.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inner-third__foto3 {
+    background: url(../images/photo3.png) no-repeat;
+    width: 354px;
+    height: 275px;
+    
+}
+
+.inner-third__foto4 {
+    background: url(../images/photo4.png) no-repeat;
+    width: 353.81px;
+    height: 625.23px;
+}
+
+.section-sixth__container {
+    height: 1109px;
+}
+
+.sh {
+    display: flex;
+    width: 750.31px;
+    margin-left: 488px;
 }
