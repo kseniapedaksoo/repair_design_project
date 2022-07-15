@@ -499,7 +499,6 @@ body * {
     justify-content: space-between;
     height: 51px;
     width: 769px;
-
 }
 
 .forms {
@@ -1422,12 +1421,14 @@ label.checkbox-text::after {
 
     .container {
         max-width: 375px;
+        margin-left: 18px;
     }
 
     .header-content {
         display: flex;
         justify-content: space-between;
         height: 57px;
+        margin-right: 18px;
     }
 
     .header-navigation {
@@ -1497,7 +1498,7 @@ label.checkbox-text::after {
     .completed {
         font-size: 22px;
         line-height: 30.49px;
-        margin-left: 61px;
+        margin-left: 43px;
         margin-top: 36px;
         text-align: center;
     }
@@ -1506,14 +1507,39 @@ label.checkbox-text::after {
         display: none;
     }
 
+    .second-text__two {
+        height: 150px;
+        width: 340px;   
+    }
+
+    .div-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .div-subtitle {
+        font-size: 11px;
+        line-height: 18px;
+        
+    }
+
     .subtitle-second {
         font-size: 11px;
         line-height: 17px;
         margin-top: 22px;
-        margin-left: 32px;
+        margin-left: 14px;
         width: 311px;
         height: 86px;
         text-align: center;
+    }
+
+    .container-second {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .button-container {
+       display: none;
     }
 
     .section-second-container {
@@ -1521,9 +1547,65 @@ label.checkbox-text::after {
         flex-direction: column-reverse;
     }
 
+    .slider-container {
+        width: 340px;
+        height: 241.35px;
+    }
+
+    .onlinecontrol {
+        margin: 0px;
+    }
+
     .onlinecontrol__item {
         object-fit: cover;
         width: 340px;
         height: 207px;
+    }
+    
+    .section-third {
+        height: 852px;
+        margin-top: -826px;
+        margin-left: -18px;
+        
+    }
+
+    .section-third__text {
+        font-size: 11px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        height: 106px;
+        width: 340px;
+        margin: 21px 0px 61px 18px;
+    }
+
+    .section-third__form {
+        width: 340px;
+        margin-left: 18px;
+    } 
+
+    .section-third-form__container {
+        display: flex;
+        flex-direction: column;
+        height: 153px;
+        width: 340px;
+    }
+
+    .form-one__checkbox {
+        width: 340px;
+        height: 32px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        padding: 1px 2px;
+        background-color: #131313;
+    }
+
+    .form-one {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .button-two {
+        width: 340px;
     }
 }
