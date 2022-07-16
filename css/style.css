@@ -681,6 +681,7 @@ label.checkbox-text::after {
     text-align: center;
     
 }
+
 .price-one {
     margin: 17px 0 21.44px 21.44px;
 }
@@ -1607,5 +1608,84 @@ label.checkbox-text::after {
 
     .button-two {
         width: 340px;
+    }
+
+    .section-fourth {
+        height: 2030px;
+    }
+
+    .repair {
+        font-size: 22px;
+        line-height: 30.49px;
+    }
+
+    .repair-vector::before{
+        margin-left: 130px;
+    }
+
+    .section-fourth-container__one {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 1450px;
+        width: 340px;
+    }
+
+    .m2__one {
+        background-image: url(../images/image3-mobile.jpg);
+        width: 340px;
+        height: 365px;
+    }
+
+    .m2__two {
+        background-image: url(../images/image\ 4-mobile.jpg);
+        width: 340px;
+        height: 365px;
+    } 
+
+    .m2__three {
+        background-image: url(../images/image\ 5-mobile.jpg);
+        width: 340px;
+        height: 365px;
+    }
+
+    .section-fourth-container__two {
+        display: none;
+    }
+
+    .redecorating {
+        height: 241px;
+        width: 270px;
+        border-radius: 0px;
+        margin: 0px;
+        position: relative;
+        top: 223px;
+    }
+
+    .redecorating-title {
+        font-size: 15px;
+        line-height: 20px;
+        height: 21px;
+        margin: 21px 47px 10px 31px;
+        width: 192px;
+    }
+
+    .redecorating-list {
+        line-height: 22px;
+        margin: 52px 29px 49px 44px;
+        width: 198px;
+        height: 152px;
+    } 
+
+    .div__m2 {
+        height: 40px;
+        width: 190.43px;
+        top: 205px;
+        margin-left: 0px;
+    }
+
+    .price {
+        font-size: 15px;
+        line-height: 20.79px;
     }
 }
